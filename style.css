@@ -69,10 +69,8 @@ h2 {
 p {
     margin-bottom: 18px;
     text-align: justify;
-    text-justify: inter-word;
-    hyphens: auto;
+    max-width: 70ch;
 }
-
 
 /* LISTAS */
 ul {
