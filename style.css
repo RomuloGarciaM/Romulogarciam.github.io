@@ -32,6 +32,12 @@ body {
     border-radius: 8px;
 }
 
+/* NUEVO: bloque de texto más legible */
+.container p,
+.container ul {
+    max-width: 720px;
+}
+
 /* TITULOS */
 h1 {
     font-size: 2.2rem;
@@ -64,6 +70,7 @@ p {
     margin-bottom: 18px;
     text-align: justify;
     text-justify: inter-word;
+    hyphens: auto;
 }
 
 
