@@ -61,12 +61,16 @@ h2 {
 
 /* TEXTO */
 p {
-    margin-bottom: 14px;
+    margin-bottom: 18px;
+    text-align: justify;
+    text-justify: inter-word;
 }
+
 
 /* LISTAS */
 ul {
     padding-left: 20px;
+    margin-top: 12px;
 }
 
 li {
@@ -78,7 +82,7 @@ li {
     padding: 16px 18px;
     border: 1px solid var(--border-soft);
     border-radius: 6px;
-    margin-top: 20px;
+    margin-top: 24px;
     background-color: #fafafa;
 }
 
@@ -97,11 +101,6 @@ section {
     margin-top: 50px;
 }
 
-/* MEJOR RITMO DE TEXTO */
-p {
-    margin-bottom: 18px;
-}
-
 /* LISTAS MÁS AIRE */
 ul {
     margin-top: 12px;
@@ -110,4 +109,24 @@ ul {
 /* PROYECTOS MÁS DESTACADOS */
 .project {
     margin-top: 24px;
+}
+
+/* MOBILE ADAPTATION (DESKTOP FIRST) */
+@media (max-width: 768px) {
+    .container {
+        margin: 20px;
+        padding: 30px 22px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.25rem;
+    }
+
+    .title {
+        font-size: 1.05rem;
+    }
 }
