@@ -92,3 +92,22 @@ a {
 a:hover {
     text-decoration: underline;
 }
+/* ESPACIADO ENTRE SECCIONES */
+section {
+    margin-top: 50px;
+}
+
+/* MEJOR RITMO DE TEXTO */
+p {
+    margin-bottom: 18px;
+}
+
+/* LISTAS MÁS AIRE */
+ul {
+    margin-top: 12px;
+}
+
+/* PROYECTOS MÁS DESTACADOS */
+.project {
+    margin-top: 24px;
+}
