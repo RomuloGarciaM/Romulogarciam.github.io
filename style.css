@@ -35,7 +35,7 @@ body {
 .container p,
 .container ul,
 .container .project {
-    max-width: 800px;
+    max-width: 780px;
 }
 
 
@@ -71,16 +71,12 @@ p {
     margin-bottom: 18px;
     text-align: justify;
     hyphens: auto;
-    max-width: 720px;
-    margin-right: auto;
 }
 
 /* LISTAS */
 ul {
     margin-top: 12px;
     padding-left: 20px;
-    max-width: 720px;
-    margin-right: auto;
 }
 
 li {
@@ -101,8 +97,8 @@ ul {
     padding: 16px 18px;
     border: 1px solid var(--border-soft);
     border-radius: 6px;
-    background-color: #fafafa;
     margin-top: 24px;
+    background-color: #fafafa;
 }
 
 /* LINKS */
