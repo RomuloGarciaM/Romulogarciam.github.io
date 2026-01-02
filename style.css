@@ -88,6 +88,7 @@ li {
     border-radius: 6px;
     margin-top: 24px;
     background-color: #fafafa;
+    max-width: 720px;
 }
 
 /* LINKS */
