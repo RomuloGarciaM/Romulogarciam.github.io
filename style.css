@@ -35,7 +35,7 @@ body {
 .container p,
 .container ul,
 .container .project {
-    max-width: 720px;
+    max-width: 800px;
 }
 
 
