@@ -32,6 +32,12 @@ body {
     border-radius: 8px;
 }
 
+.container p,
+.container ul,
+.container .project {
+    max-width: 720px;
+}
+
 
 /* TITULOS */
 h1 {
