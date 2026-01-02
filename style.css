@@ -65,6 +65,8 @@ p {
     margin-bottom: 18px;
     text-align: justify;
     hyphens: auto;
+    max-width: 720px;
+    margin-right: auto;
 }
 
 /* LISTAS */
@@ -81,7 +83,9 @@ li {
 
 /* ANCHO DE TEXTO UNIFICADO */
 p,
-ul,
+ul {
+    max-width: 720px;
+}
 .project {
     max-width: 720px;
 }
