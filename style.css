@@ -32,11 +32,6 @@ body {
     border-radius: 8px;
 }
 
-/* NUEVO: bloque de texto más legible */
-.container p,
-.container ul {
-    max-width: 720px;
-}
 
 /* TITULOS */
 h1 {
@@ -79,7 +74,7 @@ p {
 ul {
     padding-left: 20px;
     margin-top: 12px;
-    max-width: 100%;
+    max-width: 680px;
 }
 
 li {
