@@ -79,13 +79,20 @@ li {
     margin-bottom: 8px;
 }
 
-/* PROYECTOS */
+/* ANCHO DE TEXTO UNIFICADO */
+p,
+ul,
+.project {
+    max-width: 720px;
+}
+
+/* Tarjeta proyecto */
 .project {
     padding: 16px 18px;
     border: 1px solid var(--border-soft);
     border-radius: 6px;
-    margin-top: 24px;
     background-color: #fafafa;
+    margin-top: 24px;
 }
 
 /* LINKS */
