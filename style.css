@@ -32,13 +32,6 @@ body {
     border-radius: 8px;
 }
 
-.container p,
-.container ul,
-.container .project {
-    max-width: 780px;
-}
-
-
 /* TITULOS */
 h1 {
     font-size: 2.2rem;
@@ -88,7 +81,7 @@ p,
 ul,
 .subtitle,
 .project {
-    max-width: 720px;
+    max-width: 780px;
 }
 
 /* Tarjeta proyecto */
@@ -115,20 +108,6 @@ a:hover {
 /* ESPACIADO ENTRE SECCIONES */
 section {
     margin-top: 50px;
-}
-
-/* LISTAS MÁS AIRE */
-ul {
-    margin-top: 12px;
-}
-
-/* PROYECTOS MÁS DESTACADOS */
-.project {
-    padding: 16px 18px;
-    border: 1px solid var(--border-soft);
-    border-radius: 6px;
-    margin-top: 24px;
-    background-color: #fafafa;
 }
 
 /* MOBILE ADAPTATION (DESKTOP FIRST) */
