@@ -44,6 +44,8 @@ h2 {
     padding-bottom: 6px;
     border-bottom: 2px solid var(--border-soft);
     font-size: 1.4rem;
+
+    max-width: 780px;
 }
 
 /* SUBTITULOS */
