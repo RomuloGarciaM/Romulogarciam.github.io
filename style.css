@@ -85,9 +85,8 @@ li {
 
 /* ANCHO DE TEXTO UNIFICADO */
 p,
-ul {
-    max-width: 720px;
-}
+ul,
+.subtitle,
 .project {
     max-width: 720px;
 }
@@ -99,6 +98,7 @@ ul {
     border-radius: 6px;
     margin-top: 24px;
     background-color: #fafafa;
+    text-align: justify;
     hyphens: auto;
 }
 
