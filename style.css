@@ -99,6 +99,7 @@ ul {
     border-radius: 6px;
     margin-top: 24px;
     background-color: #fafafa;
+    hyphens: auto;
 }
 
 /* LINKS */
