@@ -1,4 +1,4 @@
-# Sitio web personal – Rómulo García
+# Sitio web personal – Rómulo Garcia Maygua
 
 Repositorio utilizado para publicar mi sitio web personal mediante **GitHub Pages**.
 
